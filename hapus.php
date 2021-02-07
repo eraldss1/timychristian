@@ -16,7 +16,8 @@ if (isset($_GET['id'])) {
 			echo 'Gagal menghapus data! ';
 			echo '<a href="index.php">Kembali</a>';
 		}
-  }
+	}
+	// Tambah komen
 } else {
   echo '<script>window.history.back()</script>';
 }

@@ -19,6 +19,7 @@
 		<li ><a>Artikel</a></li>
 		<li><a href="tentangkami.php">Tentang Kami</a></li>
 		<?php 
+		// Tambah komen
 						include 'koneksi.php';
 						session_start();
 						if(!isset($_SESSION['status'])){
